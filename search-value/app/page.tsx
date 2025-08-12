@@ -121,8 +121,8 @@ export default function SearchOverview() {
                 </h3>
                 <p className="text-blue-800 text-sm mb-3">
                   Your search performance has improved 23% this month. CTR is
-                  trending upward, but result rate needs attention for "getting
-                  started" queries.
+                  trending upward, but result rate needs attention for
+                  &ldquo;getting started&rdquo; queries.
                 </p>
                 <div className="flex gap-2">
                   <Badge
@@ -456,11 +456,11 @@ export default function SearchOverview() {
                   <AlertTriangle className="w-5 h-5 text-red-600 flex-shrink-0 mt-0.5" />
                   <div>
                     <h4 className="font-medium text-red-900">
-                      Low Result Rate for "Getting Started"
+                      Low Result Rate for &ldquo;Getting Started&rdquo;
                     </h4>
                     <p className="text-sm text-red-800 mt-1">
-                      Only 76% of "getting started" queries return results.
-                      Consider adding more beginner-friendly content.
+                      Only 76% of &ldquo;getting started&rdquo; queries return
+                      results. Consider adding more beginner-friendly content.
                     </p>
                     <Button
                       variant="outline"
